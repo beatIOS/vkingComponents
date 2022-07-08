@@ -1,0 +1,144 @@
+$border-radius: 4px; //设置圆角
+
+// firstmain// 一级主要按钮
+// firstminor// 一级跟随按钮
+// secondmain// 二级主要按钮
+// secondminor// 二级次及按钮
+// secondmaini// 二级主要按钮带图标
+// secondmainib// 二级主要按钮带图标+描边
+// secondminorib// 二级跟随按钮带图标+描边
+// thirdmain// 三级主要按钮
+// thirdminor// 三级跟随按钮
+// thirdmainb// 三级主要按钮带描边
+// thirdminorb// 三级跟随按钮带描边
+// textmain// 文字主要按钮
+// textminor// 文字跟随按钮
+// textmaini// 文字主要按钮带图标
+// textminori// 文字跟随按钮带图标
+// main
+// minor
+// first
+// second
+// third
+// text
+// icon
+// border
+
+// 背景颜色
+$firstmain:#00A6FF;
+$firstminor:#006297;
+$secondmain:radial-gradient(50% 50% at 50% 50%, #60C8FF 0%, #60C8FF 0%, #04A9D6 99%, #04A9D6 100%);
+$secondminor:#173849;
+$secondmaini: linear-gradient(180deg, #25B9E8 0%, #25B9E8 0%, #008DD9 99%, #008DD9 100%);
+$secondmainib:#173849;
+$secondminorib:#173849;
+$thirdmain:#1781A6;
+$thirdminor:#0E4F66;
+$thirdmainb:#173849;
+$thirdminorb:#173849;
+$textmain:transparent;
+$textminor:transparent;
+$textmaini:transparent;
+$textminori:transparent;
+// 文本颜色
+$firstmain-txt:#FFFFFF;
+$firstminor-txt:#FFFFFF;
+$secondmain-txt:#FFFFFF;
+$secondminor-txt:#00A6FF;
+$secondmaini-txt: #FFFFFF;
+$secondmainib-txt:#6CCBFF;
+$secondminorib-txt:#00A6FF;
+$thirdmain-txt:#FFFFFF;
+$thirdminor-txt:#FFFFFF;
+$thirdmainb-txt:#6CCBFF;
+$thirdminorb-txt:#00A6FF;
+$textmain-txt:#6CCBFF;
+$textminor-txt:#00A6FF;
+$textmaini-txt:#6CCBFF;
+$textminori-txt:#00A6FF;
+// 移入颜色
+$firstmain-hover:#37B9FF;
+$firstminor-hover:#0085CA;
+$secondmain-hover:#37B9FF;
+$secondminor-hover:#0D4A6B;
+$secondmaini-hover: #37B9FF;
+$secondmainib-hover:#0D4A6B;
+$secondminorib-hover:#0D4A6B;
+$thirdmain-hover:#0AA1D5;
+$thirdminor-hover:#1781A6;
+$thirdmainb-hover:#94DAFF;
+$thirdminorb-hover:#37B9FF;
+$textmain-hover:#94DAFF;
+$textminor-hover:#6CCBFF;
+$textmaini-hover:#94DAFF;
+$textminori-hover:#6CCBFF;
+// 点击颜色
+$firstmain-active:#0085CA;
+$firstminor-active:#0D4A6B;
+$secondmain-active:#0085CA;
+$secondminor-active:#006297;
+$secondmaini-active: #0085CA;
+$secondmainib-active:#006297;
+$secondminorib-active:#006297;
+$thirdmain-active:#0E4F66;
+$thirdminor-active:#0F3B4B;
+$thirdmainb-active:#37B9FF;
+$thirdminorb-active:#0085CA;
+$textmain-active:#37B9FF;
+$textminor-active:#37B9FF;
+$textmaini-active:#37B9FF;
+$textminori-active:#37B9FF;
+// 禁用颜色-背景
+$firstmain-disableb:#4B6573;
+$firstminor-disableb:#4B6573;
+$secondmain-disableb:#4B6573;
+$secondminor-disableb:#173849;
+$secondmaini-disableb: #4B6573;
+$secondmainib-disableb:#6C92A6;
+$secondminorib-disableb:#6C92A6;
+$thirdmain-disableb:#4B6573;
+$thirdminor-disableb:#4B6573;
+$thirdmainb-disableb:#4B6573;
+$thirdminorb-disableb:#4B6573;
+$textmain-disableb:transparent;
+$textminor-disableb:transparent;
+$textmaini-disableb:transparent;
+$textminori-disableb:transparent;
+// 禁用颜色-字体
+$firstmain-disablet:#8CB0C0;
+$firstminor-disablet:#8CB0C0;
+$secondmain-disablet:#8CB0C0;
+$secondminor-disablet:#6C92A6;
+$secondmaini-disablet: #8CB0C0;
+$secondmainib-disablet:#6C92A6;
+$secondminorib-disablet:#6C92A6;
+$thirdmain-disablet:#8CB0C0;
+$thirdminor-disablet:#8CB0C0;
+$thirdmainb-disablet:#8CB0C0;
+$thirdminorb-disablet:#8CB0C0;
+$textmain-disablet:#6C92A6;
+$textminor-disablet:#6C92A6;
+$textmaini-disablet:#6C92A6;
+$textminori-disablet:#6C92A6;
+
+// $firstmain:
+// $firstminor:
+// $secondmain:
+// $secondminor:
+// $secondmaini: 
+// $secondmainib:
+// $secondminorib:
+// $thirdmain:
+// $thirdminor:
+// $thirdmainb:
+// $thirdminorb:
+// $textmain:
+// $textminor:
+// $textmaini:
+// $textminori:
+
+* { // 清除默认样式
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
