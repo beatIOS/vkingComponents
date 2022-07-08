@@ -1,22 +1,24 @@
 {
-  "name": "vkingcomponents",
-  "version": "1.0.0",
-  "description": "component library",
-  "main": "index.js",
+  "name": "vue-demo-ui",
+  "version": "0.1.0",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "serve": "vue-cli-service serve",
+    "build": "vue-cli-service build",
+    "test:unit": "vue-cli-service test:unit"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/beatIOS/vkingComponents.git"
-  },
-  "author": "yeyc",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/beatIOS/vkingComponents/issues"
-  },
-  "homepage": "https://github.com/beatIOS/vkingComponents#readme",
   "dependencies": {
-    "element-ui": "^2.15.9"
+    "core-js": "^3.6.5",
+    "vue": "^2.6.11"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-babel": "~4.5.15",
+    "@vue/cli-plugin-unit-mocha": "~4.5.15",
+    "@vue/cli-service": "~4.5.15",
+    "@vue/test-utils": "^1.0.3",
+    "chai": "^4.1.2",
+    "node-sass": "^4.12.0",
+    "sass-loader": "^8.0.2",
+    "vue-template-compiler": "^2.6.11"
   }
 }
